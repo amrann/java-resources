@@ -13,4 +13,12 @@ public class PersegiPanjang implements BangunDatar{
   public double keliling(int s1, int s2) {
     return (2 * (s1 + s2));
   }
+
+
+  @Override
+  public void keterangan (String name) {
+    System.out.println("Ini adalah " + name);
+  }
+
+
 }

@@ -28,6 +28,10 @@ public class Main {
         s2 = scan.nextInt();
         System.out.println("Luar persegi panjang = " + iniPersegi.luas(s1, s2));
         System.out.println("Keliling persegi panjang = " + iniPersegi.keliling(s1, s2));
+        System.out.println();
+        System.out.println("INFO : ");
+        System.out.println("Total sisi = " + iniPersegi.totalSisi());
+        iniPersegi.keterangan("Persegi Panajang");
         break;
       }
       case '2': {
@@ -37,6 +41,10 @@ public class Main {
         s2 = scan.nextInt();
         System.out.println("Luas segitiga = " + iniSegitigaSiku.luas(s1, s2));
         System.out.print("Keliling segitiga = " + iniSegitigaSiku.keliling(s1, s2));
+        System.out.println();
+        System.out.println("INFO : ");
+        System.out.println("Total sisi = " + iniSegitigaSiku.totalSisi());
+        iniSegitigaSiku.keterangan("Segitga Siku");
         break;
       }
       case '3': {
@@ -44,6 +52,10 @@ public class Main {
         r = scan.nextInt();
         System.out.println("Luas lingkaran = " + iniLingkaran.luas(r));
         System.out.println("Keliling lingkaran = " + iniLingkaran.keliling(r));
+        System.out.println();
+        System.out.println("INFO : ");
+        System.out.println("Total sisi = " + iniLingkaran.totalSisi());
+        iniLingkaran.keterangan("Lingkaran");
         break;
       }
       default: {

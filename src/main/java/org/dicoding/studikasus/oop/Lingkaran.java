@@ -24,4 +24,9 @@ public class Lingkaran implements BangunDatar{
   public double keliling(int r) {
         return (2 * pi * r);
     }
+
+  @Override
+  public int totalSisi() {
+    return 1;
+  }
 }

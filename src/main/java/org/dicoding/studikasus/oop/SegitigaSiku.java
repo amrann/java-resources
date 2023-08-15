@@ -10,4 +10,9 @@ public class SegitigaSiku implements BangunDatar{
   public double keliling(int s1, int s2) {
     return (s1 + s2 + Math.sqrt((s1 * s1) + (s2 * s2)));
   }
+
+  @Override
+  public int totalSisi() {
+    return 3;
+  }
 }
